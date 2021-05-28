@@ -90,14 +90,31 @@ h2 {
 .gastos-realizados li:last-of-type {
   margin-bottom: 0!important;
 }
+.gastos-realizados li .gastos-listados {
+  display: flex;
+}
+
 .gastos-realizados li p {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin:0;
+  flex: 1;
 }
+
 .gastos-realizados li p .gasto {
   background-color: #004085;
   padding: 1rem;
   color:white;
+}
+.overlay{
+  height: 200px;
+  overflow-y: scroll;
+}
+.eliminar-gasto{
+  background-color: rgb(218, 81, 81);
+  color: rgb(26, 19, 19);
+  font-weight: 700;
+  font-size: 15px;
+  margin: 0 0 0 10px;
 }
